@@ -46,7 +46,7 @@ collector = FilteredElementCollector(doc, activeView.Id)
 elemInView = collector.ToElements()
 
 """ Variables """
-paramname = "DDS_ObjectID"
+paramname = "ParameterName"
 output = list()
 
 for element in elemInView:
